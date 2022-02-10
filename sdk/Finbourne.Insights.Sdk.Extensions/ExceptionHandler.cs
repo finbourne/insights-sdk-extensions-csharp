@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Finbourne.Insights.Sdk.Client;
 
 namespace Finbourne.Insights.Sdk.Extensions

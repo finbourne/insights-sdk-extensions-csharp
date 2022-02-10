@@ -1,4 +1,4 @@
-﻿using Finbourne.Insights.Sdk.Client;
+using Finbourne.Insights.Sdk.Client;
 using NUnit.Framework;
 using Polly;
 using RestSharp;
