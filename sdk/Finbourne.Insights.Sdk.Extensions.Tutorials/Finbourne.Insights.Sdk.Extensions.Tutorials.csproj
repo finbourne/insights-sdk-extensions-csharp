@@ -20,4 +20,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Finbourne.Insights.Sdk.Extensions\Finbourne.Insights.Sdk.Extensions.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="secrets.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
