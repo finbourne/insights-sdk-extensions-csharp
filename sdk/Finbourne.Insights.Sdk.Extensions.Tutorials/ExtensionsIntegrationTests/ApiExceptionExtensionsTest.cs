@@ -3,7 +3,6 @@ using Finbourne.Insights.Sdk.Client;
 using Finbourne.Insights.Sdk.Model;
 using Newtonsoft.Json;
 using NUnit.Framework;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 
@@ -13,7 +12,6 @@ namespace Finbourne.Insights.Sdk.Extensions.Tutorials
     public class ApiExceptionExtensionsTest
     {
         private IApiFactory _factory;
-        private const string RequestIdRegexPattern = "[a-zA-Z0-9]{13}:[0-9a-fA-F]{8}";
 
         [OneTimeSetUp]
         public void SetUp()
