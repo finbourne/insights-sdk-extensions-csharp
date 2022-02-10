@@ -90,7 +90,7 @@ namespace Finbourne.Insights.Sdk.Extensions.Tutorials
             var expectedMsg = "Internal SDK error occurred when calling GetVendorResponse";
 
             Assert.That(
-                () => api.GetVendorResponse("$@!-"),
+                () => api.GetVendorResponseWithHttpInfo("$@!-"),
                 Throws.InstanceOf<ApiException>()
                     .With.Message.Contains(expectedMsg));
 

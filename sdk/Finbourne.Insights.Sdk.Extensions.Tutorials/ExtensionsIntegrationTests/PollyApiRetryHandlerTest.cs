@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using Finbourne.Insights.Sdk.Api;
 using Finbourne.Insights.Sdk.Client;
 using Finbourne.Insights.Sdk.Model;
-using Finbourne.Insights.Sdk.Extensions;
 using NUnit.Framework;
 using Polly;
 using RestSharp;
@@ -46,7 +45,6 @@ namespace Finbourne.Insights.Sdk.Extensions.Tutorials
         }
 
         #region Sync tests
-        
         [Test]
         public void CallApiMethod_WhenHttpStatusIs400AndRetryConditionIsNotSatisfied_ThrowsApiExceptionWithoutRetry()
         {
@@ -228,7 +226,7 @@ namespace Finbourne.Insights.Sdk.Extensions.Tutorials
 
             Assert.That(_apiCallCount, Is.EqualTo(expectedNumberOfApiCalls));
             Assert.That(exception.ErrorCode, Is.EqualTo(0));
-       Assert.That(exception.Message, Contains.Substring("Internal SDK error occurred when calling GetVendorResponse: An error occurred while sending the request"));
+            Assert.That(exception.Message, Contains.Substring("Internal SDK error occurred when calling GetVendorResponse: An error occurred while sending the request"));
         }
 
         [Test]
@@ -439,7 +437,7 @@ namespace Finbourne.Insights.Sdk.Extensions.Tutorials
             // Notice that Async throws different error message than Sync
             Assert.That(exception.ErrorContent, Contains.Substring("The request timed-out"));
             Assert.That(exception.ErrorCode, Is.EqualTo(0));
-        }
+        }        
         #endregion
 
         [TearDown]
