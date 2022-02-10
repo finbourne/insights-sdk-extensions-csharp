@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finbourne.Insights.Sdk.Extensions", "Finbourne.Insights.Sdk.Extensions\Finbourne.Insights.Sdk.Extensions.csproj", "{089CD674-A53B-486B-A30C-B3C5DF20B626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finbourne.Insights.Sdk.Extensions.Tests", "Finbourne.Insights.Sdk.Extensions.Tests\Finbourne.Insights.Sdk.Extensions.Tests.csproj", "{8EFA05EC-BA66-4EC5-B52B-2EA29446036C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finbourne.Insights.Sdk.Extensions.Tutorials", "Finbourne.Insights.Sdk.Extensions.Tutorials\Finbourne.Insights.Sdk.Extensions.Tutorials.csproj", "{AFDA5F52-74A3-4AA0-BA3E-C222AB7BDDE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{089CD674-A53B-486B-A30C-B3C5DF20B626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089CD674-A53B-486B-A30C-B3C5DF20B626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089CD674-A53B-486B-A30C-B3C5DF20B626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089CD674-A53B-486B-A30C-B3C5DF20B626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFA05EC-BA66-4EC5-B52B-2EA29446036C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFA05EC-BA66-4EC5-B52B-2EA29446036C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFA05EC-BA66-4EC5-B52B-2EA29446036C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFA05EC-BA66-4EC5-B52B-2EA29446036C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFDA5F52-74A3-4AA0-BA3E-C222AB7BDDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDA5F52-74A3-4AA0-BA3E-C222AB7BDDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDA5F52-74A3-4AA0-BA3E-C222AB7BDDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDA5F52-74A3-4AA0-BA3E-C222AB7BDDE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
