@@ -2,10 +2,10 @@ version: "3"
 
 services:
 
-  insights-sdk-extensions-csharp-preview-test:
+  insights-sdk-extensions-csharp-test:
     build: .
-    container_name: insights-sdk-extensions-csharp-preview-test
-    image: finbourne/insights-sdk-extensions-csharp-preview-test
+    container_name: insights-sdk-extensions-csharp-test
+    image: finbourne/insights-sdk-extensions-csharp-test
     environment:
       - FBN_TOKEN_URL
       - FBN_USERNAME
