@@ -97,7 +97,7 @@ namespace Finbourne.Insights.Sdk.Extensions.Tests
         }
 
         [Test]
-        public void ApiConfiguration_HasMissingConfig_Missing_ApiUrl_Returns_True()
+        public void ApiConfiguration_HasMissingConfig_Missing_InsightsUrl_Returns_True()
         {
             ApiConfiguration config = GetApiConfiguration();
             config.InsightsUrl = String.Empty;
@@ -105,7 +105,7 @@ namespace Finbourne.Insights.Sdk.Extensions.Tests
         }
 
         [Test]
-        public void ApiConfiguration_MissingConfig_Missing_ApiUrl_Returns_Correct_String()
+        public void ApiConfiguration_MissingConfig_Missing_InsightsUrl_Returns_Correct_String()
         {
             ApiConfiguration config = GetApiConfiguration();
             config.InsightsUrl = String.Empty;
