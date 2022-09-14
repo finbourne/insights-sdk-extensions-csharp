@@ -22,3 +22,4 @@ $ dotnet add package Finbourne.Insights.Sdk.Extensions
 | branch | status |
 | --- | --- |
 | `master` | ![Nuget](https://img.shields.io/nuget/v/Finbourne.Insights.Sdk.Extensions?color=blue) [![Build and test](https://github.com/finbourne/insights-sdk-extensions-csharp/actions/workflows/build-and-test.yaml/badge.svg)](https://github.com/finbourne/insights-sdk-extensions-csharp/actions/workflows/build-and-test.yaml) |
+
