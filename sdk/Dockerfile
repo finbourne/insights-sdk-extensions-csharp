@@ -9,7 +9,4 @@ COPY Finbourne.Insights.Sdk.Extensions.Tests/Finbourne.Insights.Sdk.Extensions.T
 COPY Finbourne.Insights.Sdk.Extensions.IntegrationTests/Finbourne.Insights.Sdk.Extensions.IntegrationTests.csproj /usr/src/Finbourne.Insights.Sdk.Extensions.IntegrationTests/
 RUN dotnet restore Finbourne.Insights.Sdk.Extensions
 
-ENV FBN_INSIGHTS_API_URL ${FBN_INSIGHTS_API_URL}
-
-# ENTRYPOINT [ "/bin/bash" ]
-ENTRYPOINT dotnet test --configuration Release --verbosity normal Finbourne.Insights.Sdk.Extensions
+ENTRYPOINT dotnet test --configuration Release --verbosity normal
