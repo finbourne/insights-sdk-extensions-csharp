@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 
 namespace Finbourne.Insights.Sdk.Extensions.IntegrationTests
 {
